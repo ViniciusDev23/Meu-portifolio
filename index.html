@@ -1,13 +1,306 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem vindo</title>
-</head>
-<body>
-    <header>
-        <h1>ola munddo</h1>
-    </header>
-</body>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/code2.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>Bem-Vindo ao meu portfólio</title>
+    </head>
+
+    <body>
+        <header><!-- Head -->
+            <a href="index.html"><img src="img/code2.png" alt=""></a><!-- Logo -->
+            <div >
+                <nav><!-- links -->
+                    <ul class="ul">
+                        <a href="#about">ABOUT</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#projects">PROJECTS</a>
+                        <a href="#contato">CONTATO</a>
+                        <div class="close-icon" onclick="closeMenu()">
+                            <i class="fa fa-times-circle" aria-hidden="true"></i> 
+                        </div>
+                    </ul>
+                    <div class="menu-icon" onclick="openMenu()">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="container"><!-- Body one -->
+            <div class="animation-container"><!-- Img Animate -->
+                <img src="img/vini.png" alt="">
+            </div>
+            <div class="bodytwo-text"><!-- Text -->
+                <p>Olá! Meu nome é</p>
+                <h1>Vinícius</h1>
+                <p>Hello! I'm </p>
+                <h1>Vinicius</h1><br>
+                <h5>Frontend Developer</h5>
+                <button class="btn"><a href="contato.html">CONTATO</a></button>
+            </div> 
+        </section>
+
+        <section id="about" class="about"><!-- Body two -->
+            <p class="about-paragrafo">About Me</p>
+            <h1>Sobre Mim</h1><!-- Titles -->   
+            <div class="about-mim-pai">
+                <div class="about-mim-filho">
+                    <div class="about-img"><!-- Img Left -->
+                        <img src="img/vini.png" alt="">
+                    </div>
+                    <div class="about-card-esq"><!-- cards -->
+                        <img class="img-card" src="img/medal.png" alt="">
+                        <h3>Experience</h3>
+                        <p>3+ meses <br>Frontend Development</p>
+                    </div>
+                    <div class="about-card-esq">
+                        <img class="img-card" src="img/people.png" alt="">
+                        <h3>Education</h3>
+                        <p>EAD - Grupo DankiCode <br> 26.M FullStack</p>
+                    </div>
+                </div>
+                <div class="about-text"><!-- Text bottom -->
+                    <p>
+                        Olá! Sou um entusiasta do desenvolvimento web, atualmente focado em me tornar um desenvolvedor fullstack. Com 23 anos de idade já sendo pai. Estou embarcando em uma jornada empolgante de aprendizado e crescimento contínuo.
+                        Minha jornada começou quando decidi mergulhar de cabeça no mundo do desenvolvimento front-end. Estou atualmente fazendo um curso na renomada plataforma EAD da Danki Code, onde estou aprimorando minhas habilidades e conhecimentos em design de interfaces e codificação.
+                        Minha paixão pelo desenvolvimento não se limita apenas ao meu curso. Como autônomo e proprietário de uma empresa de moveis, encontro nas horas vagas o espaço perfeito para mergulhar em projetos e explorar novas tecnologias. Acredito que cada linha de código que escrevo é um passo em direção à realização de ideias inovadoras.
+                        Ao mesmo tempo em que gerencio minha loja, estou constantemente imerso em estudos e práticas para me tornar um desenvolvedor fullstack completo. Acredito que a combinação de habilidades front-end e back-end é fundamental para criar experiências de usuário incríveis e funcionais.
+                        Minha jornada é alimentada pela busca incessante de conhecimento e desafios empolgantes. Adoro enfrentar problemas complexos e transformá-los em soluções elegantes. Meu objetivo é não apenas escrever código, mas criar experiências digitais significativas que tenham um impacto positivo na vida das pessoas.
+                        Estou animado para compartilhar minha jornada e meu progresso neste portfólio. Seja bem-vindo a explorar meus projetos e minha evolução como desenvolvedor. Vamos construir algo incrível juntos!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience"><!-- Body three -->
+            <p class="about-paragrafo">Experience</p>
+            <h1>Experiências</h1><!-- Titles -->
+            <div class="experience-container">
+                <div class="experience-pai"><!-- Box father -->
+                    <div class="experience-filho"><!-- Box son -->
+                        <h2 class="text-title-card">Frontend Development</h2>
+                        <div class="article-container"><!-- box child -->
+                            <article>
+                                <img src="img/checklist.png" alt="">
+                                <div>
+                                    <h3>HTML</h3>
+                                    <p>Experiente</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checklist.png" alt="">
+                                <div>
+                                    <h3>CSS</h3>
+                                    <p>Experiente</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checklist.png" alt="">
+                                <div>
+                                    <h3>JAVA.S</h3>
+                                    <p>Cursando</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checklist.png" alt="">
+                                <div>
+                                    <h3>REACT.JS</h3>
+                                    <p>Cursando</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checked.png" alt="">
+                                <div>
+                                    <h3>jQuery</h3>
+                                    <p>A Cursar</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checklist.png" alt="">
+                                <div>
+                                    <h3>UI/UX</h3>
+                                    <p>Medio</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div><!-- box one and two -->
+                    <div class="experience-filho"><!-- Box son -->
+                        <h2 class="text-title-card">Backend Development</h2>
+                        <p>+ Engines</p>
+                        <div class="article-container"><!-- Box child -->
+                            <article>
+                                <img src="img/checked.png" alt="">
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>A Cursar</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checked.png" alt="">
+                                <div>
+                                    <h3>PHP</h3>
+                                    <p>A Cursar</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checked.png" alt="">
+                                <div>
+                                    <h3>RUBY</h3>
+                                    <p>A Cursar</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checked.png" alt="">
+                                <div>
+                                    <h3>C++</h3>
+                                    <p>A Cursar</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checked.png" alt="">
+                                <div>
+                                    <h3>C#</h3>
+                                    <p>A Cursar</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="img/checklist.png" alt="">
+                                <div>
+                                    <h3>SQL</h3>
+                                    <p>Cursando</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+
+        <section id="projects" class="projects"><!-- Body four -->
+            <p class="about-paragrafo">My projects</p>
+            <h1>Projetos</h1>
+            <div class="center">
+                <div class="container-slider">
+                    <div class="container-slider-single">
+                        <img class="imagen-cards" src="img/projeto1.JPG" />
+                        <div class="button-card">
+                            <button  type="button" class="bt-cards-projeto"><a href="https://github.com/ViniciusDev23/may-pijamas.git"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></button>
+                            <button  type="button" class="bt-cards-projeto"><a href="https://youtu.be/OkYo4DtPcww"><i class="fa fa-youtube" aria-hidden="true"></i> Demonstração</a></button>
+                        </div>
+                        <h3>Donna May Pijamas</h3>
+                    </div>
+                    <div class="container-slider-single">
+                        <img class="imagen-cards" src="img/card1.png" />
+                        <div class="button-card">
+                            <button  type="button" class="bt-cards-projeto"><a href="#"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></button>
+                            <button  type="button" class="bt-cards-projeto"><a href="https://youtu.be/OkYo4DtPcww"><i class="fa fa-youtube" aria-hidden="true"></i> Demonstração</a></button>
+                        </div>
+                        <h3>Reali Ambientes Planejados</h3>
+                    </div>
+                    <div class="container-slider-single">
+                        <img class="imagen-cards" src="img/card3.png" />
+                        <div class="button-card">
+                            <button  type="button" class="bt-cards-projeto"><a href="#"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></button>
+                            <button  type="button" class="bt-cards-projeto"><a href="https://youtu.be/OkYo4DtPcww"><i class="fa fa-youtube" aria-hidden="true"></i> Demonstração</a></button>
+                        </div>
+                        <h3>Nardini Moveis Planejados</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato"><!-- Body Five -->
+            <div class="contato-pai">
+                <div class="social-icons">
+                    <a class="face" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+                    <a class="insta" href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+                <!-- <div class="img"> OPICIONAL ESSAS IMAGENS
+                    <img src="img/code6.png" alt="">
+                    <img src="img/code11.png" alt="">
+                    <img src="img/code5.png" alt="">
+                    <img src="img/code9.png" alt="">
+                </div> -->
+            </div>
+            <div class="container">
+                <div class="contato-info" style="background-color: aliceblue;">
+                    <div class="left-side">
+                        <div >
+                            <i class="fa fa-map-marker"></i>
+                            <p>Rua New York - Canada Veneza Brasil, Brasilia - BA, 123456-261 BRASIL</p>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <a href="#"><p>vinideveloperr <br> @outlook.com</p></a>
+                        </div>
+                        <br>
+                        <div>
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <a href="#"><p> (87)9 9202-6551</p></a>
+                        </div>
+                        <div>
+                            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                            <a href="#"><p>+55 (87) 9202-6551</p></a>
+                        </div>  
+                        <div>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <a href="#"><p>viniciusdevf</p></a>
+                        </div>  
+                    </div>
+                    <!--FIM CONTATO E LOCALIZAÇÃO -->
+                    <div class="right-side">
+                        <form class="mob-form-500" action="">
+                            <input type="text" placeholder="Nome" required>
+                            <input type="text" placeholder="E-mail" required>
+                            <input type="text" placeholder="Assunto" required>
+                            <textarea cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                            <button type="submit" class="btn" id="enviar">Enviar</button><!-- Alerta não fuciona se tive link "a" no botão -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contato-mob"><!-- invisivel para descktop, apenas mobile!! -->
+            <p class="about-paragrafo">Contact</p>
+            <h1>contato</h1>
+            <div class="contato-mob-pai">
+                <div class="formulario">
+                    <form action="">
+                        <input type="text" placeholder="Nome" required>
+                        <input type="text" placeholder="E-mail" required>
+                        <input type="number" placeholder="Telefone" required>
+                        <textarea cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                        <button type="submit" class="btn" id="enviar">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+        <footer><!-- End of site -->
+            <div class="footer-content">
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+                <div class="footer-links">
+                    <p>&copy; 2023 Vinícius. Todos os direitos reservados.</p>
+                    <p>Design by <a class="ds-by" href="https://wa.me/87992026551">Vinícius</a></p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+        <script src="jquery.js"></script>
+        <script src="slick.min.js"></script>
+    </body>
 </html>
