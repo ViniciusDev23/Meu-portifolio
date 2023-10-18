@@ -386,16 +386,16 @@ li.slick-active button{
     transition: color 0.3s ease;
 }
 .social-icons,.face :hover{
-    color: #3b5998;
+    color: #25D366;
 }
 .social-icons,.twitter :hover {
-    color: #00acee ;
+    color: #FF0000;
 }
 .social-icons,.linkedin :hover{
     color: #0e76a8;
 }
 .social-icons,.insta :hover{
-    color:  #fa8e37;
+    color:  #FCAF45;
 }
 /* boxs direita */
 .contato-info{
@@ -622,6 +622,9 @@ a:hover {
         justify-content: center;
         align-items: center;
     }
+    .container-slider-single{
+        width: 100%;
+    }
     .container-slider-single img{
         width: 100%;
     }
@@ -670,13 +673,13 @@ a:hover {
         width: 100px;
         height: auto;
     }
-   section #about,.about{
+    section #about,.about{
         width: 100%;
     }
-   .about-mim-pai{
+    .about-mim-pai{
         width: 80%;  
     }
-   .about-mim-filho{
+    .about-mim-filho{
         width: 100%;
         height: auto;
         display: flex;
@@ -684,31 +687,31 @@ a:hover {
         align-items: center;
         flex-direction: column;
     }
-   .about-img{
+    .about-img{
         margin-left: -5px;
     }
-   .about-card-esq{
+    .about-card-esq{
         width: 80%;
     }
-   /* experiencias */
-   #experience,.experience{
+    /* experiencias */
+    #experience,.experience{
         width: 100%;
     }
-   .experience-container{
+    .experience-container{
         width: 80%;
     }
-   .experience-pai{
+    .experience-pai{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-   .experience-filho{
+    .experience-filho{
         width: 100%;
         margin: 10px 0;
     }
-   /* projetos */
-   #projects,.projects{
+    /* projetos */
+    #projects,.projects{
         box-shadow: -4px 5px 14px 0px rgba(0,0,0,0.5);
         width: 100%;
     } 
@@ -718,36 +721,36 @@ a:hover {
         align-items: center;
         flex-direction: column;
     }
-   /* contato */
-   section #contato,.contato,.contato-pai.container{
+    /* contato */
+    section #contato,.contato,.contato-pai.container{
         display: none;
     }
-   .left-side{
+    .left-side{
         display: none;
     }
-   /* config contato só para mobiles */
-   .contato-mob{
+    /* config contato só para mobiles */
+    .contato-mob{
         text-align: center;
         width: 100%;
     }
-   .contato-mob-pai{
+    .contato-mob-pai{
         width: 80%;
         margin: 0 auto;;
     }
-   .formulario {
+    .formulario {
     margin-top: 30px;
     }
-   form{
+    form{
         width: 100%;
         height: auto;
         display: flex;
         flex-direction: column;
     }
-   input{
+    input{
         margin: 10px 0;
         padding: 10px;
     }    
-   textarea{
+    textarea{
         margin-top: 7px;
         padding: 10px;
     }
