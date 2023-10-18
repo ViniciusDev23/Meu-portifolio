@@ -778,6 +778,9 @@ a:hover {
         width: 90%;
         margin: -10px 0px 0px 10px;
     }
+    .about-img{
+        display: none;
+    }
     /* end mobile body one */
     .forms{
         width: 100%;
@@ -862,8 +865,3 @@ a:hover {
     }
 }
 /* Espero que gostem! */
-
-
-
-
-  
